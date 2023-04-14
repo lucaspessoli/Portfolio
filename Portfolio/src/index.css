@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* body{
+  background-color:wheat;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3;
+}
+
+a:hover{
+  opacity:0.7;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #0b000b;
+  height: 8vh;
+}
+
+.logo{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li{
+  letter-spacing: 3px;
+  margin-left: 8vh;
+}
+
+.imag {
+  src: url("https://avatars.githubusercontent.com/u/115120374?v=4");
+  border-style: solid;
+  border-color: white;
+  border-radius: 45px;
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+main {
+  /* background: url("https://img.freepik.com/free-photo/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-103075.jpg?w=1800&t=st=1681492641~exp=1681493241~hmac=2def1aa1b6e67c327d5772da91ef381d64f93a1dedb3d1d8af0b479d59fbff08") no-repeat center center; */
+  /* background-size:cover; */
+  height: 92vh;
+  opacity: 80%;
+}
+main h1,h2{
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+body{
+  background: #0e0b1e;
+}
+
+@media screen and (max-width: 562px){
+  .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 1px;
+  }
+}
+
